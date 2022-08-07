@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+   <Resource name="jdbc/OracleDB"
+      auth="Container"
+      type="javax.sql.DataSource"
+      username="ldgeao99"
+      password="ldgeao99"
+      driverClassName = "oracle.jdbc.driver.OracleDriver" 	 
+      factory="org.apache.commons.dbcp.BasicDataSourceFactory"
+      url = "jdbc:oracle:thin:@localhost:1521:orcl"
+      maxActive="80"
+      maxIdle = "100"/>
+</Context>
+
+<!-- 
+
+
+Context.xml + jar 3개 화일 + dbcp.jsp 상단에 위치한 코드는 항상 같이 다니니 외울 필요는 없고 알아두면됨. 
+
+-->
